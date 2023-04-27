@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script defer src="./index.js"></script>
+    <title>Транслит</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="text-head">T.R.A.N.S.L.I.T.</h1>
+        </header>
+
+        <main class="main">
+            <div class="enter-text">
+                <input class="text" type="text" placeholder="Начните вводить текст">
+                <button id="btn-add">Добавить</button>
+            </div>
+
+            <div class="content">
+                <div class="translit">
+                    <div class="table table-left">
+                        <ul class="table-left-list">
+                            <li>
+                                <span class="number">1</span>
+                                <span class="word">Привет 👋🏻</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="table table-right">
+                        <ul class="table-right-list">
+                            <li id="1">
+                                <span class="word">Privet</span>
+                                <img class="img-right" src="./icons/cross.svg" alt="">
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <button class="btn-clear"><img src="./icons/cross.svg" alt="">Очистить всё</button>
+            </div>
+
+        </main>
+
+    </div>
+</body>
+
+</html>
